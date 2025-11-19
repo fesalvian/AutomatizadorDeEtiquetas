@@ -1,0 +1,43 @@
+# ---- PYTHON / BACKEND ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+*.spec
+
+# PyInstaller
+build/
+dist/
+*.tmp
+
+# PDF gerados
+etiquetas*.pdf
+
+# ---- NODE / EXPO / MOBILE ----
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.expo/
+.expo-shared/
+android/
+ios/
+dist/
+coverage/
+web-build/
+
+# Metro cache
+.expo/web/cache
+.expo/web/cache/**
+
+# typescript
+*.tsbuildinfo
+
+# local envs
+*.env
+.env.local
+.env.development
+.env.production
+expo-env.d.ts
